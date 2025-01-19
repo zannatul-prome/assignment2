@@ -70,12 +70,7 @@
 
 ## Challenges
 
-### Animations
 
-- create any kind of engaging animation on banner
-- use any kind of Tranform properties to all the black buttons
-
----
 
 ### Responsiveness
 
