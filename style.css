@@ -1,0 +1,71 @@
+/*navbar creation*/
+
+body{
+    margin:35px;
+}
+    
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.img1{
+    display: none;
+}
+.nav1 p{
+    color:rgba(17, 17, 17, 1);
+}
+.nav1{
+    display: flex;
+    gap:3px;
+    align-items: center;
+}
+
+.nav2{
+    display: flex;
+    gap:15px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.nav2 .a1{
+    color:rgba(254, 163, 1, 1);
+    text-decoration: none;
+}
+.nav2 .a2{
+    color:rgba(1, 172, 253, 1);
+   
+    text-decoration: none;
+}
+.nav2 .a3{
+    color:rgba(35, 79, 27, 1);
+    text-decoration: none;
+}
+.nav2 .a4{
+    color:rgba(93, 88, 239, 1);
+    text-decoration: none;
+}
+
+.navbar button{
+    background-color:rgba(254, 163, 1, 1);
+    border-radius: 5px;
+    color:rgba(255, 255, 255, 1);
+    width:95px;
+    height:41px;
+    border:1px solid rgba(254, 163, 1, 1);
+}
+@media(max-width:576px){
+    .navbar button{
+display: none;
+    }
+    .nav2{
+        display: none;
+    }
+    .img1{
+        display:block;
+        width:41px;
+        height:31px;
+    }
+}
