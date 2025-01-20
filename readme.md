@@ -70,22 +70,14 @@
 
 ## Challenges
 
-
-
-### Responsiveness
-
-- Do responsiveness for medium device.
-- Make sure your page dont show any horizontal scrollbar on any kind of devices from 390px.
-
 ### Positioning & Data Hiding
 
 - show the date by positioning between image and context as figma on every cards
-- hide the parapgraph for each card on medium and small devices.
+- hide the parapgraph for 1st  card on  small devices.
+- hide arrow button group  from the statndard curriculam section.
 
 ### Explore Marquee & Use It
-
 - Explore Marquee Tag. use it anywhere in your homepage. make sure marquee is working.
-
 ---
 
 # Technology
