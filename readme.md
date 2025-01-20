@@ -73,7 +73,7 @@
 ### Positioning & Data Hiding
 
 - show the date by positioning between image and context as figma on every cards
-- hide the parapgraph for 1st  card on  small devices.
+- hide the 1st  card on  small devices and show 6 card.
 - hide arrow button group  from the statndard curriculam section.
 
 ### Explore Marquee & Use It
