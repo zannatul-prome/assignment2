@@ -100,12 +100,6 @@
 
 ---
 
-# Design for Medium Device
-
- <img src="https://i.ibb.co.com/wNWw0VM/Medium.png"/>
-
----
-
 # Design for Small Device
 
  <img src="https://i.ibb.co.com/XpfS2bb/i-Phone-13-14-1.png"/>
