@@ -9,7 +9,9 @@ body{
     justify-content: space-around;
     align-items: center;
 }
-
+hr{
+    display: none;
+}
 .img1{
     display: none;
 }
@@ -48,7 +50,7 @@ body{
     text-decoration: none;
 }
 
-.navbar button{
+.navbar .button button{
     background-color:rgba(254, 163, 1, 1);
     border-radius: 5px;
     color:rgba(255, 255, 255, 1);
@@ -157,12 +159,152 @@ color:rgba(17, 17, 17, 1);
 .img:hover,.img2:hover{
   background-color: rgb(201, 151, 248);
 }
+
+/*our stories*/
+.stories{
+   background-image:  url(assets/bg.png),linear-gradient(rgb(240, 238, 236),rgb(243, 209, 150));
+  
+                
+                
+    padding-bottom:25px ;
+padding-top: 15px;}
+
+  .section1{
+    display: flex;
+   column-gap: 0ch;
+    
+  } 
+
+.stories h1{
+    text-align: center;
+}
+
+.our p{
+font-size: 14px;
+}
+.big .our .part1 img{
+    
+    width: 96%;
+    
+   
+
+}
+.our .part1{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    border-radius:15px ;
+    padding-left: 15px;
+ 
+   
+
+}
+
+
+
+
+.our img{
+    width:100%;
+    
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+   
+}
+.text{
+  background-color: white;  
+  width:91%;
+  padding: 15px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+ 
+  
+}
+
+
+/*grid */
+.grid{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+   
+    column-gap:0;
+}
+
+.f1{
+    display: flex;
+    gap:2px;
+   padding:25px;
+}
+
+.button{
+   background-color: rgb(243, 209, 150);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 15px;
+
+}
+button:hover{
+    background-color: aquamarine;
+    color: black;
+}
+button{
+    width:10%;
+    background-color: black;
+    color: white;
+    padding: 13px;
+    border-radius: 25px;
+}
+footer{
+    display: flex;
+    gap:95px;
+    background-color: rgba(1, 172, 253, 1);
+    justify-items: center;
+    align-items: center;
+    padding-left:10%;
+    color:white;
+}
+.foot{
+    width:325px;
+}
+footer img{
+    width: 47px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
 @media(max-width:576px){
+    
+    body{
+        width: 473px;
+    }
     .navbar button{
 display: none;
     }
+    .nav1 p{
+        display: none;
+    }
     .nav2{
         display: none;
+    }
+    hr{
+        display: block;
+        border: 1px solid rgb(241, 167, 29);
+        width: 100%;
+    }
+    .part1{
+        width: 324px;
+       text-align: center;
+       margin-right: 24px;
     }
     .img1{
         display:block;
@@ -176,9 +318,13 @@ display: none;
     }
     .bannar img{
         width: 267px;
-        margin-right: 70%;
+        margin-right: 20%;
        
     }
+    .div1,.div2,.div3{
+       width: 90%;
+    }
+    
     .image{
         display: none;
     }
@@ -188,4 +334,55 @@ display: none;
     
     
     }
-}
+    .grid .our.part1{
+width: 55px;
+    }
+   
+
+    .grid{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        
+        column-gap: 0px;
+    }
+
+    
+    
+    .section1{
+        display: flex;
+        flex-wrap: wrap;
+      } 
+    .big .our .part1{
+      display: none;
+    }
+
+    .text{
+        background-color: white;  
+        width:48%;
+        padding: 15px;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+       
+        
+      }
+      .our img{
+        width:60%;
+        
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
+       
+    }
+    button{
+        width:30%;
+       
+    }
+    footer{
+        display: flex;
+       flex-direction: column;
+       justify-content: first baseline;
+       align-items: first baseline;
+        
+    }
+    }
+
+
