@@ -90,6 +90,7 @@ color:rgba(17, 17, 17, 1);
 /*standard curriculum*/
 .curriculum{
     background-image: url("assets/bg.png");
+    
 }
 .curriculum h1{
     text-align: center;
@@ -132,7 +133,30 @@ color:rgba(17, 17, 17, 1);
     text-decoration: none;
     color: rgba(240, 170, 0, 1)};
 
-    
+.image{
+    display: flex;
+   
+  
+   
+}
+ .img{
+    width: 21px;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px;
+    margin-left: 50%;
+    margin-top: 15px;
+}
+.img2{
+    width: 21px;
+    background-color: orange;
+    border-radius: 50%;
+    padding: 5px;
+    margin-right: 120px;
+}
+.img:hover,.img2:hover{
+  background-color: rgb(201, 151, 248);
+}
 @media(max-width:576px){
     .navbar button{
 display: none;
@@ -155,5 +179,13 @@ display: none;
         margin-right: 70%;
        
     }
-
+    .image{
+        display: none;
+    }
+    .standard {
+        display: flex;
+        flex-wrap: wrap;
+    
+    
+    }
 }
