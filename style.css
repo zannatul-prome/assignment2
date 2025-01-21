@@ -1,7 +1,7 @@
 /*navbar creation*/
 
 body{
-    margin:35px;
+    margin-left:35px;
 }
     
 .navbar{
@@ -56,6 +56,83 @@ body{
     height:41px;
     border:1px solid rgba(254, 163, 1, 1);
 }
+/*bannar creation*/
+.part1{
+    width: 544px;
+    padding-right: 120px;
+}
+.part1 h1{
+color:rgba(17, 17, 17, 1);
+}
+.part1 .span1{
+    color: rgba(254, 163, 1, 1);
+
+}
+.part1 .span2{
+    color:rgba(1, 172, 253, 1);
+}
+
+.part1 button{
+    color:white;
+    width: 95px;
+    height:31px;
+    background-color:rgba(17, 17, 17, 1);
+    border-radius: 5px;
+}
+
+.bannar{
+    display: flex;
+    gap:50px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*standard curriculum*/
+.curriculum{
+    background-image: url("assets/bg.png");
+}
+.curriculum h1{
+    text-align: center;
+}
+.standard {
+    display: flex;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.div1{
+    background-image: linear-gradient(rgba(202, 240, 255, 0.74),white);
+    padding: 15px;
+    border: 2px solid skyblue;
+    border-radius: 15px;
+}
+.div2{
+    background-image: linear-gradient(rgba(255, 244, 220, 1),white);
+    padding: 15px;
+    border: 2px solid orange;
+    border-radius: 15px;
+}
+.div3{
+    background-image: linear-gradient(rgba(242, 232, 255, 1),white);
+    padding: 15px;
+    border: 2px solid violet;
+    border-radius: 15px;
+}
+.div1,.div2,.div3{
+    text-align: center;
+}
+
+.div1 a,.div3 a{
+    text-decoration: none;
+    color: rgba(100, 200, 255, 1);
+}
+.div2 a{
+    text-decoration: none;
+    color: rgba(240, 170, 0, 1)};
+
+    
 @media(max-width:576px){
     .navbar button{
 display: none;
@@ -68,4 +145,15 @@ display: none;
         width:41px;
         height:31px;
     }
+    .bannar{
+        display: flex;
+       flex-direction: column-reverse;
+       flex-wrap: wrap;
+    }
+    .bannar img{
+        width: 267px;
+        margin-right: 70%;
+       
+    }
+
 }
